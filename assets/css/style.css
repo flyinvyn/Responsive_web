@@ -1,0 +1,127 @@
+body {
+  overflow-x: hidden;
+}
+.input {
+  width: 600px;
+  border-radius: 25px !important;
+}
+.rounded-pill {
+  width: 100px;
+}
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+.carousel {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+p {
+  color: #9b9b9b;
+}
+.product {
+  background: #ffffff;
+  box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+}
+img {
+  max-width: 100%;
+}
+.btnt {
+  border-radius: 13px;
+  height: 30px;
+} */
+  
+  /* css sign up */
+  .text-regis {
+    text-align: center;
+    padding-top: 1em;
+    color: #222222;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #DB3022;
+  }
+  .nav-pills .nav-link {
+    width: 100px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a:link,
+  a:visited {
+    text-decoration: none !important;
+    color: white;
+    cursor: pointer !important;
+  }
+
+  .btn {
+    background-color: #DB3022;
+    border-radius: 13px;
+  }
+ .btn a{
+    color: #fff !important;
+ }
+.fill{
+  position: relative;
+}
+.filter{
+  width: 30px;
+  height: 30px;
+  border: silver solid 1px;
+  border-radius: 30%;
+  position: absolute;
+
+  right: 400px;
+  top: -14px;
+}
+.filter img{
+  padding-top: 5px;
+}
+
+
+  @media screen and (max-width: 600px) {
+    .category {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .input {
+      width: 330px;
+      border-radius: 25px;
+    }
+    .search{
+      left: 318px;
+      top: 61px;
+    }
+    .img1{
+      display: none;
+    }
+    .filter{
+      display: none;
+    }
+    
+  }
+  a:link, a:visited {
+        text-decoration: none !important;
+        color: black;
+        cursor: pointer !important;
+    }
+    
