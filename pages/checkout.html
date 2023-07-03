@@ -86,7 +86,8 @@
         .inn1 {
             margin-left: 42px;
         }
-        .srch{
+
+        .srch {
             border: none;
             border-radius: 50%;
             background-color: #ffffff;
@@ -94,7 +95,8 @@
             right: 515px;
             bottom: 18px;
         }
-        .hd{
+
+        .hd {
             border: none;
             background-color: #ffffff;
             width: 35px;
@@ -102,6 +104,7 @@
             margin-right: 9px;
         }
 
+        
 
         @media only screen and (max-width: 600px) {
             .category {
@@ -110,7 +113,7 @@
                 margin-right: auto;
             }
 
-            .srch{
+            .srch {
                 right: 25px;
                 bottom: 55px;
             }
@@ -131,6 +134,9 @@
             .inn1 {
                 flex-direction: column;
                 margin-left: 80px;
+            }
+            .d{
+                flex-direction: column;
             }
         }
 
@@ -158,18 +164,18 @@
                         <li class="nav-item ml-2">
                             <input class="form-control mr-2 input position-relative" type="search" placeholder="Search"
                                 aria-label="Search" />
-                                <button class="srch">
-                                    <img src="../assets/img/Search Glyph.png" alt="">
-                                </button>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <button class="filter">
-                                <img src="../assets/img/filter 1.png" alt="" />
+                            <button class="srch">
+                                <img src="../assets/img/Search Glyph.png" alt="">
                             </button>
-                       <button class="hd">
-                        <a href="./order.html"><img class="mr-4" src="../assets/img/cart-1.png" alt="cart" /></a>
-                       </button>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="filter">
+                            <img src="../assets/img/filter 1.png" alt="" />
+                        </button>
+                        <button class="hd">
+                            <a href="./order.html"><img class="mr-4" src="../assets/img/cart-1.png" alt="cart" /></a>
+                        </button>
                         <button class="hd">
                             <img class="mr-4" src="../assets/img/bell.png" alt="bell" />
                         </button>
@@ -190,9 +196,9 @@
         <section class="mt-5 "> <br>
             <div class="container">
                 <h2 class=" font-weight-bold">Checkout</h2>
+                <h5 class="mt-5">Shipping adress</h5>
                 <div class="row">
-                    <div class="col-md-7">
-                        <h5 class="mt-5">Shipping adress</h5>
+                    <div class="col-md-8">
                         <div class="card bg-light mb-3">
                             <div class="card-body ">
                                 <div class="">
@@ -220,12 +226,12 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h5>$ 20.0</h5>
+                                    <h5 class="mr-2">Rp.20.000.00</h5>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card bg-light mb-3 mt-4">
+                        <div class="card bg-light mb-3">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div class="media">
                                     <img src="../assets/img/prduct1.png" class="align-self-center mr-3" alt="...">
@@ -235,28 +241,28 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h5>$ 20.0</h5>
+                                    <h5 class="mr-2">Rp.20.000.00</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-5">
-                        <div class="card bg-light mt-5"> <br>
-                            <h5 class="card-title ml-3">Shopping summary</h5> <br>
-                            <div class="d-flex justify-content-between ml-3">
+                    <div class="col-6 col-md-4">
+                        <div class="card bg-light"> <br>
+                            <h5 class="card-title ml-2">Shopping summary</h5> <br>
+                            <div class="d-flex justify-content-between ml-2">
                                 <p>Order</p>
-                                <h5 class="mr-3">$ 40.0</h5>
+                                <h5 class="mr-3">Rp.40.000.00</h5>
                             </div>
-                            <div class="d-flex justify-content-between ml-3">
+                            <div class="d-flex justify-content-between ml-2">
                                 <p>Delivery</p>
-                                <h5 class="mr-3">$ 5.0</h5>
+                                <h5 class="mr-3">Rp.5.000</h5>
                             </div>
                             <div class="border-top ml-3 mr-3 mt-3"></div>
-                            <div class="d-flex justify-content-between ml-3 mt-4">
+                            <div class="d-flex justify-content-between ml-2 mt-4 d">
                                 <h5 class="card-title">Shopping summary</h5>
-                                <h5 class="mr-3 text-danger">$ 45.0</h5>
+                                <h5 class="mr-3 text-danger">Rp.45.000.00</h5>
                             </div>
-                            <button class="btn btn-danger rounded-pill w-auto ml-3 mr-3 mt-3">Buy</button> <br>
+                            <button class="btn btn-danger rounded-pill w-auto ml-2 mr-3 mt-3 mb-5">Select payment</button>
                         </div>
                     </div>
                 </div>
